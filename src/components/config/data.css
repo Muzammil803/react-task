@@ -1,0 +1,22 @@
+.user-container{
+    width: 100%;
+    height: 100%;
+}
+
+.user-head-body{
+
+background-color: antiquewhite;
+padding: 10px;
+
+}
+.user-head{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+}
+.user-body-container{
+display: flex;
+width: 500px;
+justify-content: space-around;
+margin: 10px;
+}
