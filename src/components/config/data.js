@@ -321,7 +321,7 @@ return    <div className="user-body-container" key={i}>
 
     return (
         <div className="user-container">
-            <button className="btn btn-danger m-2"><Link className=" btn-back" to={"/"}>Back</Link></button>
+            <button className="btn btn-primary btn-back m-2"><Link className=" btn-back" to={"/"}>Back</Link></button>
             <div className="user-head-body">
                 <div className="user-head">
                     <div className="user-name"><h1>Name</h1></div>
