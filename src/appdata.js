@@ -163,7 +163,7 @@ const Dropdown = () => {
           <Form.Check 
             type={type}
             id={`default-${type}`}
-            label={`default ${type}`}
+            label={`agree terms`}
             ref={checkVal}
           />
         </div>

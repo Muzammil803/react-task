@@ -26,6 +26,9 @@ width: 500px;
 justify-content: space-around;
 margin: 10px;
 }
+.main-container-edit{
+width: 100% !important;
+}
 
 .user-body-name{
     width: 140px;

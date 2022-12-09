@@ -190,7 +190,7 @@ function AppData({idvalue}) {
 
   return (<div>
 
-    <div className='main-container'>
+    <div className='main-container main-container-edit'>
       
       <div className='sector-input'>
         <Dropdown idvalue={idvalue} />
