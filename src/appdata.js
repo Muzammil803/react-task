@@ -179,12 +179,11 @@ const Dropdown = () => {
 
 function AppData() {
 
-
   return (<div>
 
-<p style={{color:"white"}}>Please enter your name and pick the Sectors you are currently involved in.
+<p style={{color:"white",textAlign:'center'}}>Please enter your name and pick the Sectors you are currently involved in.
 </p>
-<button className='btn ' style={{backgroundColor:"white",margin:"10px auto"}}><Link style={{fontWeight:"bold",textDecoration:"none"}} to={"/user"}>UserData</Link></button>
+<button className='btn ' style={{backgroundColor:"white",margin:"10px 10px 10px"}}><Link style={{fontWeight:"bold",textDecoration:"none"}} to={"/user"}>UserData</Link></button>
     <div className='main-container'>
       
       <div className='sector-input'>
@@ -194,6 +193,6 @@ function AppData() {
 
   </div>
   );
-}
+} 
 
 export default AppData;

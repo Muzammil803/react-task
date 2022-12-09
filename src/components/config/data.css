@@ -11,12 +11,80 @@ padding: 10px;
 }
 .user-head{
     display: flex;
-    width: 700px;
+    width: 500px;
     justify-content: space-around;
+}
+.user-body{
+    max-height:400px;
+overflow-y: auto;
+overflow-x: hidden;
 }
 .user-body-container{
 display: flex;
 width: 500px;
+
 justify-content: space-around;
 margin: 10px;
+}
+
+.user-body-name{
+    width: 140px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.user-body-sector{
+
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-body-sector>span{
+    width: 170px;
+    /* background-color: blue; */
+    overflow-wrap: break-word;
+    max-height: 80px;
+}
+.user-body-sector>button{
+    width: 70px;
+
+}
+.modal-content{background-color: none !important;}
+@media  (max-width: 480px) {
+
+    .user-head{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .user-body-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px;
+    }
+    
+    .user-body-name{
+        width: 100px;
+        /* background-color: aqua; */
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    
+.user-body-sector>span{
+    width: 100px;
+    /* background-color: blue; */
+    overflow-wrap: break-word;
+    max-height: 80px;
+}
+.user-body-sector>button{
+    width: 50px;
+
+}
+
 }
